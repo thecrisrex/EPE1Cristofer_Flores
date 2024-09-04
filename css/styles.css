@@ -1,0 +1,48 @@
+/* styles.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.jumbotron {
+    background-image: url('../images/tech-background.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 5rem 1rem;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer a {
+    color: #ffc107;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
